@@ -1,0 +1,24 @@
+import requests
+import datetime
+
+
+TOKEN = ${{README_KEY}}
+
+USERNAME = HydraIndustriesOfficial
+
+REPO = HydraIndustriesOfficial
+
+def get_recent_commits():
+    url = f'https://api.github.com/repos/{USERNAME}/{REPO}/commits'
+    headers = {'Authorization': f'token ${TOKEN}'}
+    response = requests.get(url, headers=headers)
+    commits = response.json()
+    return commits[:5]  # Return only the 5 most recent commits
+
+def display_recent_commits():
+    commits = get_recent_commits()
+    for commit in commits:
+        commit_date = datetime.datetime.strptime(commit['commit']['committer']['date'], "%Y-%m-%dT%H:%M:%SZ")
+        print(f"Commit: {commit['commit']['message']} - Date: {commit_date}")
+
+display_recent_commits()
