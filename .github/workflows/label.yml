@@ -1,22 +1,15 @@
-name: Label issues
-on:
-  issues:
-    types:
-      - reopened
-      - opened
+name: Labeler
+on: [pull_request_target]
+
 jobs:
-  label_issues:
+  label:
+
     runs-on: ubuntu-latest
     permissions:
-      issues: write
-    steps:
-      - uses: actions/github-script@v6
-        with:
-          script: |
-            github.rest.issues.addLabels({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              labels: ["triage"]
-            })
+      contents: read
+      pull-requests: write
 
+    steps:
+    - uses: actions/labeler@v4
+      with:
+        repo-token: "${{ secrets.GITHUB_TOKEN }}"
