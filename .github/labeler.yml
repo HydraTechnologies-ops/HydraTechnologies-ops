@@ -1,1 +1,14 @@
+# .github/labeler.yml
 
+# List of labels and corresponding minimatch globs
+labels:
+  - label: bug
+    globs:
+      - '*bug*'
+      - '*error*'
+  - label: feature
+    globs:
+      - '*feature*'
+      - '*enhancement*'
+
+# End of configuration
