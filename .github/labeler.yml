@@ -1,9 +1,9 @@
 # .github/labeler.yml
 
 # List of labels and corresponding minimatch globs
-App: Apps/*
-Bug: ['*bug*', '*error*']
-Feature: ['*features*', '*enhancements*']
+app: Apps/*
+bug: ['*bug*', '*error*']
+feature: ['*features*', '*enhancements*']
 
 
 # End of configuration
