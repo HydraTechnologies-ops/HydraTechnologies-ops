@@ -1,6 +1,7 @@
 # .github/labeler.yml
 
 # List of labels and corresponding minimatch globs
+apps: Apps/*
 labels:
   - label: bug
     globs:
