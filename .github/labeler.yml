@@ -2,11 +2,11 @@
 
 # List of labels and corresponding minimatch globs
 App: Apps/*
+bug:
+  globs:
+    - '*bug*'
+    - '*error*'
 labels:
-  - label: bug
-    globs:
-      - '*bug*'
-      - '*error*'
   - label: feature
     globs:
       - '*feature*'
