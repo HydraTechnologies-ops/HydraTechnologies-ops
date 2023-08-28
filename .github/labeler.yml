@@ -2,14 +2,8 @@
 
 # List of labels and corresponding minimatch globs
 App: Apps/*
-labels:
-  - label: bug
-    globs:
-      - '*bug*'
-      - '*error*'
-  - label: feature
-    globs:
-      - '*feature*'
-      - '*enhancement*'
+Bug: ['*bug*', '*error*']
+Feature: ['*features*', '*enhancements*']
+
 
 # End of configuration
