@@ -4,6 +4,7 @@
 app: Apps/*
 bug: ['*bug*', '*error*']
 feature: ['*features*', '*enhancements*']
+code: code/*
 
 
 # End of configuration
