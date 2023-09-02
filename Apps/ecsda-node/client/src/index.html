@@ -1,0 +1,166 @@
+<style>
+    .heading_2 {
+        display: flex;
+        padding-top: 5rem;
+        justify-content: flex-end;
+        height: fit-content;
+        width: auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: stretch;
+        align-items: flex-end;
+    }
+
+    .TOKEN {
+        font-family: 'Helvetica';
+        font-size: 13.75rem;
+        color: #DBD6D5;
+        letter-spacing: -2.14px;
+        text-align: right;
+        line-height: .74;
+    }
+
+    .secondbox {
+        font-size: 1.5625rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+    }
+
+    #phase {
+        color: #DBD6D5;
+        font-size: 0.5319148936vw;
+        letter-spacing: -0.006875rem;
+        font-family: 'changeling neo';
+        padding-bottom: 0;
+        padding-left: 1rem;
+
+    }
+
+    #release {
+        font-family: 'Andale mono';
+        font-size: 0.5319148936vw;
+        letter-spacing: 0.0625rem;
+        color: #00353b;
+        text-align: left;
+
+    }
+
+    @media only screen and (max-width: 48rem) {
+        .TOKEN {
+            font-family: 'Helvetica';
+            font-size: 9.375rem;
+            color: #DBD6D5;
+            letter-spacing: -.04875rem;
+            text-align: left;
+            line-height: .8;
+            padding-left: 0;
+        }
+
+        .heading_2 {
+            display: flex;
+            padding-top: 6.875rem;
+            justify-content: flex-start;
+            height: fit-content;
+            width: auto;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-content: stretch;
+            align-items: flex-end;
+        }
+
+        #phase {
+            color: #DBD6D5;
+            font-size: 0.625rem;
+            letter-spacing: -.006875rem;
+            font-family: 'Helvetica';
+            padding-bottom: 0;
+        }
+
+        #release {
+            font-family: 'Helvetica';
+            font-size: 0.625rem;
+            letter-spacing: -.006875rem;
+            color: #F7B500;
+            text-align: left;
+        }
+
+        .phase-release-container {
+            padding-left: 0;
+        }
+    }
+
+    @media only screen and (max-width: 26.75rem) {
+        .heading_2 {
+            display: block;
+            padding-top: 5rem;
+            justify-content: flex-end;
+            height: fit-content;
+            width: auto;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-content: stretch;
+            align-items: flex-end;
+        }
+
+        .TOKEN {
+            font-family: 'Helvetica';
+            font-size: 4.375rem;
+            color: #DBD6D5;
+            letter-spacing: -.04875rem;
+            text-align: left;
+            line-height: 0;
+            padding-right: 0.625rem;
+            padding-top: 0;
+            padding-bottom: 1.875rem;
+        }
+
+        .heading_2 {
+            display: flex;
+            padding-top: 0;
+            justify-content: flex-start;
+            height: fit-content;
+            width: auto;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-content: stretch;
+            align-items: flex-end;
+            padding-bottom: 0;
+
+
+        }
+
+        #phase {
+            color: #DBD6D5;
+            font-size: 0.5319148936vw;
+            letter-spacing: -0.006875rem;
+            font-family: 'changeling neo';
+            padding-bottom: 0;
+            padding-left: 1rem;
+
+        }
+
+        #release {
+            font-family: 'Andale mono';
+            font-size: 0.5319148936vw;
+            letter-spacing: 0.0625rem;
+            color: #00353b;
+            text-align: left;
+
+        }
+
+        .phase-release-container {
+            padding-left: 0;
+            align-items: flex-start !important;
+        }
+    }
+</style>
+
+<div class="heading_2">
+    <span class="TOKEN">TOKEN</span>
+    <div class="phase-release-container" style="display: flex; align-items: flex-end;">
+        <span class="secondbox" id="phase">PHASE 01</span>
+        &nbsp;
+        <span class="secondbox" id='release'>[PRE RELEASE]</span>
+    </div>
+</div>
