@@ -7,6 +7,25 @@
     "enabled": true,
     "automerge": true
   },
-  "automerge": true
+   "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
+      "automerge": true
+    }
+   ],
+  "automerge": true,
+  "automergeType": "branch",
+  "dependencyDashboardApproval": true,
+  "enabled": true,
+   "vulnerabilityAlerts": {
+    "enabled": true,
+    "labels": [
+      "arg0"
+    ]
+  },
+  "gomod": {
+    "enabled": true
+  },
+  "rebaseWhen": "behind-base-branch"
 
 }
