@@ -1,3 +1,6 @@
 [submodule "Apps/Contract-Puzzles"]
 	path = Apps/Contract-Puzzles
 	url = https://github.com/ChainShot/Contract-Puzzles.git
+[submodule "Apps/Local-Hardhat-Games"]
+	path = Apps/Local-Hardhat-Games
+	url = https://github.com/ChainShot/Local-Hardhat-Games.git
