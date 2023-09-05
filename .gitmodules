@@ -4,3 +4,6 @@
 [submodule "Apps/Local-Hardhat-Games"]
 	path = Apps/Local-Hardhat-Games
 	url = https://github.com/ChainShot/Local-Hardhat-Games.git
+[submodule "Apps/Escrow-Contract"]
+	path = Apps/Escrow-Contract
+	url = https://github.com/alchemyplatform/escrow-hardhat.git
