@@ -3,4 +3,3 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Welcome!+Make+yourself+comfy! )](https://git.io/typing-svg)
 
 - 🔭 I’m currently working on ORGANIZING THIS REPOSITORY.
-- 🌱 I’m currently learning AWS, GOLANG, SOLIDITY AND QUANTUM COMPUTING.
