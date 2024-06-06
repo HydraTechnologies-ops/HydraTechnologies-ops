@@ -95,19 +95,6 @@ Explores blockchain technology benefits in scientific research, focusing on sust
 
 ---
 
-### ✨ Recent Activity
-
-<!--START_SECTION:activity-->
-1. ❗️ Opened issue [#123](https://github.com/HydraTechnologies-ops/YourRepo/issues/123) in [YourRepo](https://github.com/HydraTechnologies-ops/YourRepo)
-2. 📝 Created PR [#456](https://github.com/HydraTechnologies-ops/YourRepo/pull/456) in [YourRepo](https://github.com/HydraTechnologies-ops/YourRepo)
-3. 🚀 Deployed new version of [Project Name](project-link)
-<!--END_SECTION:activity-->
-
-### 📅 Weekly Development Breakdown
-
-<!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
-
 ### 📜 Quote of the Day
 
 ![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
