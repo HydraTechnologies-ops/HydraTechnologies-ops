@@ -15,8 +15,8 @@ Documentation:
   - any-glob-to-any-file: '**/*.md'
 
 TextChange:
-  -changed-files:
-    -any-glob-to-any-file: '**/.txt'
+- changed-files:
+  - any-glob-to-any-file: '**/*.txt'
 
 # Add 'feature' label to any PR where the head branch name starts with `feature` or has a `feature` section in the name
 feature:
