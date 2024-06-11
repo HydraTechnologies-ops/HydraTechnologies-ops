@@ -1,6 +1,6 @@
 # .github/labeler.yml
 
-# Add 'app' label to application-related changes
+# Add 'app' label to application-related changes.
 app:
   - changed-files: ['Apps/*', 'src/apps/*', 'apps/*']
 
