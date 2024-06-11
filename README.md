@@ -19,7 +19,9 @@ I'm thrilled to have you here. I'm Kahlob, a passionate developer focused on blo
 - 😄 **Pronouns**: He/Him.
 - ⚡ **Fun Fact**: I love integrating technology with sustainability initiatives.
 
-I'm particularly passionate about leveraging cutting-edge technologies to solve real-world problems. My current interests include developing decentralized applications (DApps), smart contracts, and exploring the intersection of blockchain and environmental sustainability. I enjoy collaborating with others to bring innovative ideas to life and am always eager to learn new skills and technologies.
+I am particularly passionate about employing advanced technologies to solve real-world problems. My current interests include developing decentralized applications (DApps) and smart contracts, as well as exploring the intersection of blockchain and environmental sustainability. I enjoy collaborating with others to bring innovative ideas to life and am always eager to learn new skills and technologies.
+
+## 🛠️ M
 
 ## 🛠️ My Tech Stack
 
