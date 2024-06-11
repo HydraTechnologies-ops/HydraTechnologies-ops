@@ -14,7 +14,7 @@ I'm thrilled to have you here. I'm Kahlob, a passionate developer focused on blo
 - 🌱 **Learning**: Generative AI, Hyperledger, Blockchain Identity Management Systems.
 - 👯 **Collaborating On**: Any exciting projects.
 - 🤔 **Seeking Help With**: Wherever applicable.
-- 💬 **Ask Me About**: Solidity, Web3, Dapp Development, Golang Development, Javascript, etc.
+- 💬 **Ask Me About**: Solidity, Web3, Dapp Development, Golang Development, Javascript, Ethers, DAOs, etc.
 - 📫 **Reach Me**: kahlob@hydratechnologies.us.
 - 😄 **Pronouns**: He/Him.
 - ⚡ **Fun Fact**: I love integrating technology with sustainability initiatives.
