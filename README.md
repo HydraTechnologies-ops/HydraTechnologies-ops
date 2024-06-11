@@ -6,7 +6,7 @@
 
 # Hi there! 👋 Welcome to My GitHub Profile
 
-I'm thrilled to have you here. I'm Kahlob, a passionate developer focused on blockchain technology, web3 innovation, and environmental sustainability. Here you'll find an array of projects showcasing my work and interests. Dive in and explore!
+I'm thrilled to have you here. I'm Kahlob, a passionate developer focused on blockchain technology, web3 innovation, and environmental sustainability. Here, you'll find various projects showcasing my work and interests. Dive in and explore!
 
 ## 🚀 About Me
 
@@ -19,7 +19,7 @@ I'm thrilled to have you here. I'm Kahlob, a passionate developer focused on blo
 - 😄 **Pronouns**: He/Him.
 - ⚡ **Fun Fact**: I love integrating technology with sustainability initiatives.
 
-I'm particularly passionate about leveraging cutting-edge technologies to solve real-world problems. My current interests include developing decentralized applications (DApps), smart contracts, and exploring the intersection of blockchain and environmental sustainability. I enjoy collaborating with others to bring innovative ideas to life and am always eager to learn new skills and technologies.
+I am particularly passionate about leveraging cutting-edge technologies to solve real-world problems. My current interests include developing decentralized applications (DApps) and smart contracts, and exploring the intersection of blockchain and environmental sustainability. I enjoy collaborating with others to bring innovative ideas to life and am always eager to learn new skills and technologies.
 
 ## 🛠️ My Tech Stack
 
