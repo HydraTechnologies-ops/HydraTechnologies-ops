@@ -1,9 +1,92 @@
 # .github/labeler.yml
 
 # List of labels and corresponding minimatch globs
-app: Apps/*
-bug: ['*bug*', '*error*']
-feature: ['*features*', '*enhancements*']
 
+# Label for applications
+app:
+  - "Apps/*"
+  - "src/apps/*"
+  - "apps/*"
 
-# End of configuration
+# Label for bugs and errors
+bug:
+  - "*bug*"
+  - "*error*"
+  - "*fix*"
+  - "*issue*"
+  - "src/errors/*"
+  - "docs/bugs/*"
+
+# Label for features and enhancements
+feature:
+  - "*features*"
+  - "*enhancements*"
+  - "*improvements*"
+  - "*additions*"
+  - "src/features/*"
+  - "docs/features/*"
+
+# Label for documentation
+documentation:
+  - "*docs*"
+  - "docs/*"
+  - "*.md"
+  - "*.rst"
+
+# Label for tests
+tests:
+  - "*test*"
+  - "tests/*"
+  - "spec/*"
+  - "*.spec.*"
+  - "*.test.*"
+
+# Label for dependencies
+dependencies:
+  - "package.json"
+  - "requirements.txt"
+  - "Gemfile"
+  - "Cargo.toml"
+  - "*.lock"
+
+# Label for CI configurations
+ci:
+  - ".github/workflows/*"
+  - ".travis.yml"
+  - "circle.yml"
+
+# Label for configuration files
+configuration:
+  - "*.config.*"
+  - "*.conf"
+  - "*.yaml"
+  - "*.yml"
+  - "config/*"
+
+# Label for performance improvements
+performance:
+  - "*performance*"
+  - "*speed*"
+  - "*optimize*"
+  - "src/performance/*"
+
+# Label for refactoring
+refactor:
+  - "*refactor*"
+  - "*cleanup*"
+  - "*restructure*"
+  - "src/refactor/*"
+
+# Label for styling changes
+styling:
+  - "*style*"
+  - "*css*"
+  - "*scss*"
+  - "*less*"
+  - "*ui*"
+  - "*ux*"
+  - "src/styles/*"
+  - "styles/*"
+  - "*.css"
+  - "*.scss"
+  - "*.less"
